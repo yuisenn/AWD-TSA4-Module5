@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #5adfb288; 
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  
+  .pricing-card {
+    padding: 30px;
+    border: 1px solid #ddd;
+    background-color: #ffffff; 
+    border-radius: 10px; 
+    transition: box-shadow 0.3s; 
+  }
+  
+  .pricing-card:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .pricing-card .card-header {
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .pricing-card h3 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .pricing-card .price {
+    font-size: 18px;
+    color: #007bff; 
+  }
+  
+  .pricing-card .list-group-item {
+    background-color: transparent; 
+    border: none; 
+    padding: 5px 0; 
+  }
+  
+  .pricing-card .btn {
+    width: 100%;
+  }
+  
+  /* Featured card style */
+  .featured .card-header {
+    background-color: #007bff;
+    color: #fff; 
+  }
+  
+  .featured .price {
+    color: #fff; 
+  }
+  
+  .featured .btn {
+    background-color: #28a745; 
+    border-color: #28a745; 
+  }
+  
+  .featured .btn:hover {
+    background-color: #218838; 
+    border-color: #1e7e34; 
+  }
+  
+  /* Button style */
+  .btn {
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: background-color 0.3s, border-color 0.3s, color 0.3s;
+  }
+  
+  .btn-primary {
+    background-color: #007bff; 
+    border-color: #007bff; 
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3; 
+    border-color: #004dab; 
+  }
+  
+  .btn-secondary {
+    background-color: #6c757d; 
+    border-color: #6c757d; 
+  }
+  
+  .btn-secondary:hover {
+    background-color: #5a6268; 
+    border-color: #545b62; 
+  }
+  
+  .btn-success {
+    background-color: #28a745; 
+    border-color: #28a745; 
+  }
+  
+  .btn-success:hover {
+    background-color: #218838; 
+    border-color: #1e7e34; 
+  }
+  
